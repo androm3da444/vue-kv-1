@@ -1,0 +1,21 @@
+{
+  "name": "vue-kv-1",
+  "version": "1.0.0",
+  "description": "Vue app 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Kapil Varunshri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

@@ -1,0 +1,13 @@
+.idea/
+node_modules/
+logs/
+dist/
+junk/
+npm-debug.log.**
+npm-debug.log
+.nyc_output
+.DS_Store
+.vscode
+.nyc_output/
+coverage/
+mochawesome-report/
