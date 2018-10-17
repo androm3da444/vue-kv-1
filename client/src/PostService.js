@@ -1,4 +1,4 @@
-import axios from axios;
+import axios from 'axios';
 
 const url = 'http://localhost:5000/api/posts/';
 
@@ -22,7 +22,7 @@ class PostService {
     }
 
     //Create posts
-    static insertPost() {
+    static insertPost(text) {
         return axios.post(url, {
             text
         });
